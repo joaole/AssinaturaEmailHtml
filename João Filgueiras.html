@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signature</title>
+    <style>
+        body {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .container {
+            width: 100%;
+        }
+        .signature-table {
+            vertical-align: -webkit-baseline-middle;
+            font-size: medium;
+            font-family: 'Josefin Sans', sans-serif;
+            width: 100%;
+        }
+        .info-table {
+            vertical-align: -webkit-baseline-middle;
+            font-size: medium;
+            font-family: 'Josefin Sans', sans-serif;
+            width: 100%;
+        }
+        .divider {
+            width: 1px;
+            border-left: 1px solid #2b2e4a;
+        }
+        .contact-info a {
+            text-decoration: none;
+            color: #000000;
+            font-size: 12px;
+        }
+        .footer-text {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: small;
+            font-weight: 500;
+        }
+        .header-text {
+            margin: 0px;
+            padding-top: 4%;
+            font-size: 18px;
+            color: #000000;
+            font-weight: 600;
+            text-align: left;
+        }
+        .profile-image {
+            max-width: 100%;
+            height: auto;
+        }
+        .icon-image {
+            display: block;
+            background-color: #2b2e4a;
+            width: 100%;
+            max-width: 13px;
+            height: auto;
+        }
+        .contact-info-row {
+            display: flex;
+            align-items: center;
+            justify-content: start;
+        }
+        @media (max-width: 600px) {
+            .info-table {
+                display: block;
+                width: 100%;
+            }
+            .info-table td {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+            .divider {
+                display: none;
+            }
+            .contact-info {
+                display: block;
+                margin-top: 10px;
+                text-align: left;
+            }
+            .contact-info-row {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+            }
+            .icon-cell {
+                margin-right: 15px; /* Espaço de 15px entre ícone e texto */
+                padding: 0; /* Remover qualquer padding adicional */
+            }
+            .contact-info a {
+                display: block;
+                text-align: left;
+            }
+            .header-text {
+                font-size: 16px;
+            }
+            .footer-text {
+                font-size: smaller;
+            }
+            .profile-image {
+                max-width: 75%;
+                height: auto;
+            }
+        }
+        .profile-image-cell {
+            width: 200px;
+        }
+        .divider-cell {
+            width: 15px;
+        }
+        .contact-info-table {
+            width: 100%;
+        }
+        .contact-info-row {
+            height: 25px;
+            vertical-align: middle;
+        }
+        .icon-cell {
+            width: 30px;
+            vertical-align: middle;
+        }
+        .divider-line {
+            width: 100%;
+            border-bottom: 1px solid #2b2e4a;
+            border-left: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <table class="signature-table">
+        <tbody>
+            <tr>
+                <td>
+                    <table class="info-table">
+                        <tbody>
+                            <tr>
+                                <td class="profile-image-cell">
+                                    <img src="https://b3608497.smushcdn.com/3608497/wp-content/uploads/2024/06/EC-Logo-Vertical-Azul-1024x724.png?lossy=2&strip=1&webp=1" alt="Profile Picture" class="profile-image">
+                                </td>
+                                <td class="name-department-cell">
+                                    <h2 class="name">João Filgueiras</h2>
+                                    <p class="position">Marketing</p>
+                                </td>
+                                <td class="divider-cell"></td>
+                                <td class="divider"></td>
+                                <td class="divider-cell"></td>
+                                <td>
+                                    <table class="contact-info-table">
+                                        <tbody>
+                                            <tr class="contact-info-row">
+                                                <td class="icon-cell">
+                                                    <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/email-icon-2x.png" alt="emailAddress" class="icon-image">
+                                                </td>
+                                                <td class="contact-info">
+                                                    <a href="mailto:joaoleonardo@ecprojetos.com.br">joaoleonardo@ecprojetos.com.br</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="contact-info-row">
+                                                <td class="icon-cell">
+                                                    <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/link-icon-2x.png" alt="website" class="icon-image">
+                                                </td>
+                                                <td class="contact-info">
+                                                    <a href="https://ecprojetos.com.br">https://ecprojetos.com.br</a>
+                                                </td>
+                                            </tr>
+                                            <tr class="contact-info-row">
+                                                <td class="icon-cell">
+                                                    <img src="https://cdn2.hubspot.net/hubfs/53/tools/email-signature-generator/icons/linkedin-icon-2x.png" alt="LinkedIn" class="icon-image">
+                                                </td>
+                                                <td class="contact-info">
+                                                    <a href="https://www.linkedin.com/in/joao-leonardo-filgueiras-rodrigues-45b8152b2/">LinkedIn</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td class="header-text">
+                    Precisão Estratégica em Economia, Engenharia e Sustentabilidade
+                </td>
+            </tr>
+            <tr>
+                <td class="divider-line"></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="container">
+        <p class="footer-text">
+            "Nota de Confidencialidade: Esta mensagem destina-se à pessoa a quem está endereçada e pode conter informação confidencial,
+            de propriedade ou privilegiada legalmente, sendo seu sigilo protegido pela Lei Geral de Proteção de Dados (Lei nº 13.709/2018).
+            Pessoas ou empresas não autorizadas não estão permitidas a acessarem estas informações. Qualquer forma de divulgação é estritamente proibida.
+            Se você recebeu esta mensagem por engano, por favor, avise imediatamente ao remetente, respondendo o e-mail, e em seguida apague-a.
+            Agradecemos sua cooperação."
+        </p>
+    </div>
+</body>
+</html>
